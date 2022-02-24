@@ -1,0 +1,29 @@
+.orderList {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+select {
+  margin-top: 12px;
+  background-color: transparent;
+  border: none;
+  min-width: 250px;
+  border-bottom: 1px solid #999;
+  font-size: 1.2rem;
+}
+
+.orderList li:nth-child(1) {
+  margin-top: 0;
+}
+.orderList li {
+  margin-top: 24px;
+}
+
+.orderList li span {
+  margin-right: 32px;
+}
+
+.orderList__status {
+  text-transform: uppercase;
+}
